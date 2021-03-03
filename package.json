@@ -1,0 +1,22 @@
+{
+  "name": "vue-track-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config ./conf/webpack.conf.js --watch "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.2",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "ts-loader": "^8.0.17",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
